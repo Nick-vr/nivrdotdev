@@ -1,5 +1,5 @@
-import React from 'react'
-import { createGlobalStyle } from 'styled-components'
+import * as React from 'react'
+import styled, { createGlobalStyle } from 'styled-components'
 import reset from 'styled-reset'
 
 import Header from './header'
@@ -19,7 +19,7 @@ html {
   font-size: 17px;
 }
 body {
-  padding: 50px;
+  padding: 50px 50px 0;
 }
 h1 {
   font-size: 3rem;
@@ -46,15 +46,24 @@ input, textarea, button {
 }
 `
 
+const SContainer = styled.div`
+  position: relative;
+  min-height: calc(100vh - 50px);
+`
+
+const SMain = styled.main`
+  padding-bottom: 2.5rem;
+`
+
 // markup
 const Layout = ({ children }) => {
   return (
-    <>
+    <SContainer>
       <GlobalStyle />
       <Header />
-      <main>{children}</main>
+      <SMain>{children}</SMain>
       <Footer />
-    </>
+    </SContainer>
   )
 }
 

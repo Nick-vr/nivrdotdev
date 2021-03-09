@@ -1,4 +1,5 @@
-import React from 'react'
+import * as React from 'react'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import Mail from '../images/mail.svg'
@@ -11,6 +12,10 @@ const SHeader = styled.header`
   h2 {
     text-transform: uppercase;
     font-weight: 100;
+
+    @media (max-width: 502px) {
+      font-size: 1.5rem;
+    }
   }
 `
 const SSocialLinks = styled.div`
@@ -32,12 +37,24 @@ const SSocialLinks = styled.div`
 const Header = () => {
   return (
     <SHeader>
-      <h2>nick</h2>
-      <h2>van royen</h2>
+      <Link to="/">
+        <h2>nick</h2>
+        <h2>van royen</h2>
+      </Link>
       <SSocialLinks>
-        <img src={Mail} alt="Mail me image" />
-        <img src={Cv} alt="My CV image" />
-        <img src={Linkedin} alt="Linkedin image" />
+        <a href="mailto:hello@nivr.dev">
+          <img src={Mail} alt="Mail me" />
+        </a>
+        <Link to="/cv">
+          <img src={Cv} alt="My CV" />
+        </Link>
+        <a
+          href="https://www.linkedin.com/in/nickvanroyen/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <img src={Linkedin} alt="Linkedin" />
+        </a>
       </SSocialLinks>
     </SHeader>
   )

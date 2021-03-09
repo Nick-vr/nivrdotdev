@@ -8,12 +8,14 @@ module.exports = {
     twitterUsername: `@Nickvr_`,
   },
   plugins: [
-    'gatsby-plugin-styled-components',
-    'gatsby-plugin-sharp',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-offline',
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`,
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: `gatsby-plugin-manifest`,
       options: {
         name: `nivr`,
         short_name: `nivr`,
@@ -21,17 +23,16 @@ module.exports = {
         background_color: `#151515`,
         theme_color: `#151515`,
         display: `minimal-ui`,
-        icon: 'src/images/icon.png',
+        icon: `./src/images/icon.png`,
       },
     },
-    'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'images',
-        path: './src/images/',
+        name: `images`,
+        path: `./src/images/`,
       },
-      __key: 'images',
+      __key: `images`,
     },
   ],
 }

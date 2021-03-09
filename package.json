@@ -1,11 +1,11 @@
 {
   "name": "nivrdotdev",
   "version": "1.0.0",
-  "private": true,
   "description": "nivrdotdev",
   "author": "Nick-vr",
   "keywords": [
-    "gatsby"
+    "Portfolio",
+    "Nick Van Royen"
   ],
   "scripts": {
     "develop": "gatsby develop",

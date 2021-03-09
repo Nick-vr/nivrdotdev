@@ -11,6 +11,7 @@ import cv from '../images/cv.pdf'
 // styles
 const SHeader = styled.header`
   margin-bottom: 80px;
+
   h2 {
     text-transform: uppercase;
     font-weight: 100;
@@ -22,6 +23,7 @@ const SHeader = styled.header`
 `
 const SSocialLinks = styled.div`
   margin-top: 10px;
+
   img {
     margin-right: 20px;
     color: #373737;

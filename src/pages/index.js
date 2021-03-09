@@ -6,18 +6,17 @@ import SEO from '../components/seo'
 import Projects from '../components/projects'
 
 // styles
-const SSection = styled.section`
-  div {
-    margin-bottom: 15vh;
-  }
-`
+const SSection = styled.section``
 
 const STextWrap = styled.div`
+  margin: 15vh 0;
+
   h1 {
     @media (max-width: 502px) {
       font-size: 1.9rem;
     }
   }
+
   h2 {
     color: #373737;
     margin-top: -10px;

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 import reset from 'styled-reset'
 
@@ -29,6 +29,9 @@ h2 {
 }
 h3 {
   font-size: 2rem;
+}
+h4 {
+  fonr-size: 1.5rem;
 }
 *,
 *:before,

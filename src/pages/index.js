@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 import Layout from '../components/layout'
@@ -15,12 +15,16 @@ const SSection = styled.section`
 const STextWrap = styled.div`
   h1 {
     @media (max-width: 502px) {
-      font-size: 2rem;
+      font-size: 1.9rem;
     }
   }
   h2 {
     color: #373737;
     margin-top: -10px;
+
+    @media (max-width: 502px) {
+      font-size: 2rem;
+    }
   }
 `
 

@@ -1,10 +1,12 @@
-import * as React from 'react'
+import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import Mail from '../images/mail.svg'
 import Cv from '../images/cv.svg'
 import Linkedin from '../images/linkedin.svg'
+
+import cv from '../images/cv.pdf'
 
 // styles
 const SHeader = styled.header`

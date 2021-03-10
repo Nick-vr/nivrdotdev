@@ -6,8 +6,6 @@ import Mail from '../images/mail.svg'
 import Cv from '../images/cv.svg'
 import Linkedin from '../images/linkedin.svg'
 
-import cv from '../images/cv.pdf'
-
 // styles
 const SHeader = styled.header`
   margin-bottom: 80px;

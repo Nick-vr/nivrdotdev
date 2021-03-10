@@ -11,7 +11,7 @@ import Save from '../images/save.svg'
 const SCVWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   padding: 80px 40px;
   margin-bottom: 15vh;
 
@@ -50,6 +50,10 @@ const BaseWrapper = styled.div`
 
 const SIndentedP = styled.p`
   margin: 10px 0 0 20px;
+
+  @media (min-width: 1020px) {
+    max-width: 30vw;
+  }
 `
 
 const SDownloadCV = styled.div`

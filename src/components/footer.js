@@ -5,6 +5,7 @@ const currentYear = new Date().getFullYear()
 
 // styles
 const SFooter = styled.footer`
+  padding: 80px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -15,7 +16,7 @@ const SFooter = styled.footer`
   height: 2.5rem;
   color: #373737;
   text-align: center;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   letter-spacing: 0.2rem;
 
   span {

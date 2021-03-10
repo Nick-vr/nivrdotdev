@@ -25,7 +25,7 @@ const SCVWrapper = styled.section`
 
   @media (max-width: 1020px) {
     div:nth-child(1) {
-      margin-bottom: 100px;
+      margin-bottom: 20vh;
     }
   }
 `

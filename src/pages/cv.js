@@ -52,14 +52,6 @@ const SIndentedP = styled.p`
   margin: 10px 0 0 20px;
 `
 
-const SEducationWrapper = styled(BaseWrapper)`
-  /* background-color: salmon; */
-`
-
-const SWorkWrapper = styled(BaseWrapper)`
-  /* background-color: lightpink; */
-`
-
 const SDownloadCV = styled.div`
   display: flex;
   justify-content: center;
@@ -90,7 +82,7 @@ const CvPage = () => {
       </SDownloadCV>
       <SCVWrapper>
         {/* Education */}
-        <SEducationWrapper>
+        <BaseWrapper>
           <h2>/Education</h2>
 
           <h3>_Vdab & Obelisk</h3>
@@ -109,10 +101,10 @@ const CvPage = () => {
 
           <h3>_Industrial sciences 2nd degree</h3>
           <p>VTS2 Sint-Niklaas | 2000 to 2002</p>
-        </SEducationWrapper>
+        </BaseWrapper>
 
         {/* Work experience */}
-        <SWorkWrapper>
+        <BaseWrapper>
           <h2>/Work</h2>
 
           <h3>_Developer</h3>
@@ -139,7 +131,7 @@ const CvPage = () => {
             Install, repair, replace and maintain HVAC systems for homesand
             businesses in many different types of buildings.
           </SIndentedP>
-        </SWorkWrapper>
+        </BaseWrapper>
       </SCVWrapper>
     </Layout>
   )

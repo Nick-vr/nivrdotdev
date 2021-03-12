@@ -118,21 +118,21 @@ const CvPage = () => {
           <h3>Technical Draftsman</h3>
           <p>Admibo bvba | 2017 to 2020</p>
           <SIndentedP>
-            Drawing surfaces for road works and diversions. Staying incontact
+            Drawing surfaces for road works and diversions. Staying in contact
             with the customers to make adjustments.
           </SIndentedP>
 
           <h3>3D Printing</h3>
           <p>Materialise | 2015 to 2017</p>
           <SIndentedP>
-            Accepting orders and working with 3D printed materialsfrom start to
+            Accepting orders and working with 3D printed materials from start to
             finish.
           </SIndentedP>
 
           <h3>HVAC Installer</h3>
           <p>T.L. bvba & Borcalor NV | 2007 to 2014</p>
           <SIndentedP>
-            Install, repair, replace and maintain HVAC systems for homesand
+            Install, repair, replace and maintain HVAC systems for homes and
             businesses in many different types of buildings.
           </SIndentedP>
         </BaseWrapper>

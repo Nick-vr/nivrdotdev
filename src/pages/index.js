@@ -50,7 +50,7 @@ const IndexPage = () => {
         </STextWrap>
         <STextWrap>
           <h1>LIVING IN</h1>
-          <h2>BELSELE</h2>
+          <h2>SINT-NIKLAAS</h2>
         </STextWrap>
       </SSection>
       <SSkewY />

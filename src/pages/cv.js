@@ -92,9 +92,9 @@ const CvPage = () => {
           <h3>Vdab & Obelisk</h3>
           <p>.Net developer with C# | Currently enrolled</p>
           <SIndentedP>
-            SQL, UML, C#, Entity framework, ASP.NET (Core) MVC,REST, Test driven
-            development, GUI with WPF, HTML,CSS, Javascript, AngularJS, GIT,
-            SCRUM
+            SQL, UML, C#, Entity framework, ASP.NET (Core) MVC, REST, Test
+            driven development, GUI with WPF, HTML, CSS, Javascript, AngularJS,
+            GIT, SCRUM
           </SIndentedP>
 
           <h3>Multimedia 3rd degree</h3>

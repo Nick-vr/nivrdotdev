@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import Mail from '../images/mail.svg'
 import Cv from '../images/cv.svg'
 import Linkedin from '../images/linkedin.svg'
+import Github from '../images/github.svg'
 
 // styles
 const SHeader = styled.header`
@@ -47,15 +48,22 @@ const Header = () => {
         <a href="mailto:hello@nivr.dev">
           <img src={Mail} alt="Mail me" />
         </a>
-        <Link to="/cv">
-          <img src={Cv} alt="My CV" />
-        </Link>
         <a
           href="https://www.linkedin.com/in/nickvanroyen/"
           rel="noreferrer noopener"
           target="_blank"
         >
           <img src={Linkedin} alt="Linkedin" />
+        </a>
+        <Link to="/cv">
+          <img src={Cv} alt="CV" />
+        </Link>
+        <a
+          href="https://github.com/Nick-vr"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <img src={Github} alt="GitHub" />
         </a>
       </SSocialLinks>
     </SHeader>

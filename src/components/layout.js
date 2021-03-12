@@ -15,6 +15,26 @@ body {
   background-color: #151515;
   color: #fff;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaa7a7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
 html {
   font-size: 17px;
 }

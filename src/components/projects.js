@@ -57,11 +57,41 @@ const SInfoWrap = styled.div`
 const Projects = () => {
   return (
     <SContainer>
+      {/* VEGGIESWAP */}
+      <SProjectWrapper>
+        <SInfoWrap>
+          <h3>
+            VEGGIESWAP <span>/ANGULAR & .NET</span>
+          </h3>
+          <a
+            href="https://github.com/Nick-vr/VeggieSwapClient"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <h4>frontend repo</h4>
+          </a>
+          <a
+            href="https://github.com/Dries-Maes/VeggieSwapServer"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <h4>backend repo</h4>
+          </a>
+        </SInfoWrap>
+        <StaticImage
+          src="../images/veggieswap.jpg"
+          alt="Zwitter preview"
+          placeholder="blurred"
+          layout="constrained"
+          width={350}
+        />
+      </SProjectWrapper>
+
       {/* KETELFIXER */}
       <SProjectWrapper>
         <SInfoWrap>
           <h3>
-            KETELFIXER <span>/WEB</span>
+            KETELFIXER <span>/REACT</span>
           </h3>
           <a
             href="https://www.ketelfixer.be"
@@ -69,6 +99,13 @@ const Projects = () => {
             target="_blank"
           >
             <h4>ketelfixer.be</h4>
+          </a>
+          <a
+            href="https://github.com/Nick-vr/ketelfixer"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <h4>repo</h4>
           </a>
         </SInfoWrap>
         <StaticImage
@@ -91,7 +128,7 @@ const Projects = () => {
             rel="noreferrer noopener"
             target="_blank"
           >
-            <h4>zwitter repository</h4>
+            <h4>repo</h4>
           </a>
         </SInfoWrap>
         <StaticImage

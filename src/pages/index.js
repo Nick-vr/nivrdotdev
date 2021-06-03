@@ -42,7 +42,7 @@ const IndexPage = () => {
       <SSection>
         <STextWrap>
           <h1>
-            SOFTWARE
+            FRONTEND
             <br />
             DEVELOPER AT
           </h1>
